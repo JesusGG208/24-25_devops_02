@@ -2,8 +2,8 @@ version: "3.1"
 
 services:
   galeria:
-    container_name: test
-    image: jgomgar208/test:latest
+    container_name: galeria
+    image: jgomgar208/galeria:latest
     ports:
       - 80:5000
     restart: always
